@@ -24,7 +24,7 @@ The most comprehensive journalism AI system available as a Claude Code plugin. 3
 - [Use Cases](#use-cases)
 - [Contributing](#contributing)
 - [FAQ](#faq)
-- [Disclaimer](#disclaimer)
+- [Legal Notice & Disclaimer](#legal-notice--disclaimer)
 - [License & Author](#license--author)
 
 ---
@@ -330,9 +330,41 @@ A: The `bot-network-detector` first classifies accounts as bot or human. Human a
 
 ---
 
-## Disclaimer
+## Legal Notice & Disclaimer
 
-This plugin provides journalism analysis tools and workflows for research and educational purposes. It does **not** replace professional editorial judgment. Always independently verify facts, consult legal counsel for sensitive investigations, and follow your organization's editorial standards. The authors accept no liability for decisions made based on this plugin's output.
+> ⚠️ **READ BEFORE USE.** Three documents govern this repository: [`LICENSE`](LICENSE) (MIT), [`DISCLAIMER.md`](DISCLAIMER.md) (14-clause legal disclaimer), and [`NOTICE`](NOTICE) (hazard notice). The summary below is not a substitute for those documents. By cloning, forking, installing, or using this software you accept all three in full.
+
+**Nature of the software.** This repository is an **educational and analytical framework** of prompt templates, agent definitions, and orchestration logic for use inside Claude Code. It is **not** a news publication, journalism product, fact-checking service, forensic laboratory, or regulated media offering. The Author is not a "journalist," "news publisher," "intermediary," or "Data Fiduciary" by reason of distributing this software.
+
+**AI / LLM hallucination warning.** All content referencing identifiable persons, entities, financial links, bot networks, sincerity scores, deepfake verdicts, or translations is generated at runtime by a large language model under the User's sole direction. **Such output may be fabricated, hallucinated, or materially false** — including confident-sounding but fictitious allegations, non-existent sources, invented quotations, imaginary financial relationships, and wrongly-classified media. *Example:* the tool may generate a "financial link" between two named persons that does not exist in reality. Confident language, numerical precision, and source-grade labels (e.g., *"Tier 1 verified"*) in any output are stylistic and carry **no probative value**. Every identifying factual claim must be independently corroborated against at least two contemporaneous, independent, human-sourced, non-LLM references before any use.
+
+**User is sole publisher.** The User is the sole commissioner, originator, and publisher of any output. The User bears full legal, editorial, ethical, reputational, and financial responsibility and **indemnifies** the Author, contributors, and maintainers against all claims, FIRs, notices, DPDP Board proceedings, damages, penalties, and legal costs arising from the User's use ([DISCLAIMER.md clause 11](DISCLAIMER.md)).
+
+**Prohibited uses** (non-exhaustive — see [DISCLAIMER.md clause 5](DISCLAIMER.md) for the full enumerated list and residual catch-all):
+
+| # | Prohibited use | Primary statutory anchor |
+|---|---|---|
+| a | Stalking, doxxing, intimate-partner surveillance | BNS 2023 §§ 78, 79, 351–354 |
+| b | Targeting minors | POCSO Act 2012 |
+| c | Election interference, deepfake political content | RPA 1951 §§ 123, 125A |
+| d | Private-person surveillance | DPDP Act 2023; *Puttaswamy* (2017) |
+| e | Defence / intelligence / OSA / UAPA-adjacent targets | Official Secrets Act 1923; UAPA 1967 |
+| f | Sub-judice reporting in breach of contempt law | Contempt of Courts Act 1971 |
+| g | Credit, employment, housing, insurance decision-making | (output inadmissible for such use) |
+| h | Securities-law-regulated trading/research decisions | SEBI (PIT) Regs 2015; (PFUTP) 2003 |
+| i | Attacks on financial integrity of listed companies | SEBI PFUTP Regs 2003 |
+| j | Non-consensual intimate imagery / deepfake sexual content | IT Act 2000 §§ 67, 67A, 67B; POCSO 2012 |
+| k | Impersonation of journalists, regulators, officials | IT Act 2000 §§ 66C, 66D |
+
+In addition to the enumerated list, the User must comply with **every applicable law, rule, regulation, court order, and platform term of service** of India and of any jurisdiction from which the User operates or in which any output is published or consumed. Omission of any specific prohibition from the list above is not consent or licence.
+
+**No professional advice.** Nothing produced by this software is legal advice, editorial judgement, forensic-expert opinion, or financial advice. No attorney–client, journalist–source, or fiduciary relationship is created. Consult a qualified human professional before acting.
+
+**Governing law and exclusive forum.** This software, its use, and this notice are governed by the laws of the Republic of India. **The competent courts at Hyderabad, Telangana have exclusive jurisdiction** over all civil, contractual, tortious, and regulatory proceedings to the extent forum is electable. Criminal jurisdiction is fixed by statute (BNSS 2023) and is not subject to forum selection; the User acknowledges that any offence alleged to have been committed through this software is committed by the User, not by the Author.
+
+**Limitation of liability.** Liability of the Author, contributors, and maintainers is excluded to the maximum extent permitted by law; where the law does not permit exclusion, aggregate liability is capped at **INR 100.00**. See [DISCLAIMER.md clause 12](DISCLAIMER.md) for the full terms and the MIT License for the underlying "AS IS / NO WARRANTY" provisions.
+
+> If you are a journalist, fact-checker, researcher, or editor: you are not the target of these provisions — they exist to keep the repository safe to open-source against motivated attack and LLM misuse. Use the software professionally, verify independently, obtain legal review on sensitive matters, and publish with care.
 
 ---
 
